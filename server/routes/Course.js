@@ -1,8 +1,5 @@
-
 const express = require("express")
 const router = express.Router()
-
-
 
 // Course Controllers Import
 const { createCourse, getAllCourses, getCourseDetails, getFullCourseDetails, editCourse, getInstructorCourses, deleteCourse } = require("../controllers/Course")
